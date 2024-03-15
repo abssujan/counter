@@ -1,0 +1,32 @@
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#counter-display {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+button {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+#counterAdd {
+    background-color: aquamarine;
+}
+
+#counterMinus {
+    background-color: antiquewhite;
+}
